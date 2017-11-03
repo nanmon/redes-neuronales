@@ -4,9 +4,14 @@
   "homepage": "http://nanmon.github.io/redes-neuronales",
   "private": true,
   "dependencies": {
+    "bulmaswatch": "^0.5.2",
+    "eslint": "^3.19.0",
+    "font-awesome": "^4.7.0",
+    "marked": "^0.3.6",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-scripts": "1.0.14",
+    "superagent": "^3.8.0"
   },
   "scripts": {
     "start": "react-scripts start",
