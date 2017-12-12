@@ -9,7 +9,7 @@ export default class ConvolutionalPage extends Component {
 
 
   componentWillMount() {
-    fetch('https://raw.githubusercontent.com/nanmon/red-convolucional/master/README.md')
+    fetch('https://raw.githubusercontent.com/nanmon/cnn/master/README.md')
       .then(res => res.blob())
       .then(blob => {
         const reader = new FileReader();
