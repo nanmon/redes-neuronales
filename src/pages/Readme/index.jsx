@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import * as marked from 'marked';
 
-export default class ConvolutionalPage extends Component {
+export default class ReadmePage extends Component {
   
   state = {
     readme: null
@@ -9,7 +9,7 @@ export default class ConvolutionalPage extends Component {
 
 
   componentWillMount() {
-    fetch('https://raw.githubusercontent.com/nanmon/cnn/master/README.md')
+    fetch(this.props.url)
       .then(res => res.blob())
       .then(blob => {
         const reader = new FileReader();
